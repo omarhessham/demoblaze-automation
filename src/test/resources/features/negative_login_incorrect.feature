@@ -1,4 +1,4 @@
-@neg
+@all @neg
 Feature: Login with incorrect credentials shows error
 
   Scenario: Attempt to log in with wrong username or password

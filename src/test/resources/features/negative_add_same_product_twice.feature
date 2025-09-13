@@ -1,4 +1,4 @@
-@neg
+@all @neg
 Feature: Add same product twice
 
   Scenario: Adding the same product twice updates the cart (two rows and doubled total)

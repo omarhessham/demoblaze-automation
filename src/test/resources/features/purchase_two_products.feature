@@ -1,4 +1,4 @@
-@two_products
+@all @two_products
 Feature: Two laptops then checkout
 
   Scenario: Sign up → Log in → Add two laptops → Validate cart → Checkout
@@ -22,6 +22,6 @@ Feature: Two laptops then checkout
 
     When I place the order
     Then the modal total should equal the cart total
-    When I fill checkout details "John Tester", "EG", "Cairo", "4111111111111111", "12", "2027"
+    When I fill checkout details "Omar Hesham", "EG", "Cairo", "4111111111111111", "12", "2027"
     And I purchase
     Then I should see a success message

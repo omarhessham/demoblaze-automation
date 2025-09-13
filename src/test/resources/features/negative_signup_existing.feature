@@ -1,4 +1,4 @@
-@neg
+@all @neg
 Feature: Sign up then sign up again with same user
 
   Background:
